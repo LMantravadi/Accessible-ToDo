@@ -46,14 +46,14 @@ export default function TodoItem({
         className="ml-2  hover:underline focus:outline-none"
         aria-label={`Edit task ${todo.title}`}
       >
-        <img src="/edit_task_icon.png" width={30} />
+        <img src="edit_task_icon.png" width={30} />
       </button>
       <button
         onClick={() => onDelete(todo.id)}
         className="ml-2 hover:underline focus:outline-none"
         aria-label={`Delete task ${todo.title}`}
       >
-        <img src="/delete_task_icon.png" width={30} />
+        <img src="delete_task_icon.png" width={30} />
       </button>
 
       {/* Edit Todo Modal */}
