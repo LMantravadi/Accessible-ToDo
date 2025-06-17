@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'Accessible-ToDo',
+  base: '/Accessible-ToDo/',
   plugins: [react(), tailwindcss()],
 })
